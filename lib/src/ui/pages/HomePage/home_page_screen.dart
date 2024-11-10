@@ -42,7 +42,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Icon(
+                const Icon(
                   Icons.description_rounded,
                   color: Cor.darkBlue,
                   size: 80,
