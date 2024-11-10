@@ -6,6 +6,7 @@ class Cor {
   static const Color lightBlue = Color(0xFF4590BF);
   static const Color skyBlue = Color(0xFF99E2F2);
   static const Color mediumBlue = Color(0xFF1B608E);
+  static const Color hardBlue = Color.fromARGB(255, 22, 79, 117);
   static const Color orange = Color(0xFFF26716);
 
   static const Color white = Color(0xFFFFFFFF);

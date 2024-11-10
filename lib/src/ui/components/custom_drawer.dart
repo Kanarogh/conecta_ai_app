@@ -12,6 +12,7 @@ class _CustomDrawerState extends State<CustomDrawer> {
   @override
   Widget build(BuildContext context) {
     return Drawer(
+      backgroundColor: Cor.white,
       child: ListView(
         children: const [
           DrawerHeader(
@@ -32,7 +33,10 @@ class _CustomDrawerState extends State<CustomDrawer> {
                   SizedBox(height: 10),
                   Text(
                     'Jhonatas Teixeira',
-                    style: TextStyle(color: Colors.white, fontSize: 18),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold),
                   ),
                   Text(
                     'jhonatas@gmail.com',
